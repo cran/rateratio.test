@@ -40,8 +40,7 @@ the one-sided p-values. See Lehmann (1986, p. 152) or \code{vignette("rateratio.
 \references{Lehmann, E.L. (1986). Testing Statistical Hypotheses (second edition). Wadsworth and Brooks/Cole, Pacific Grove, California. }
 \author{Michael Fay}
 \note{ Much of the error checking code was taken from prop.test.} 
-% ~Make other sections like Warning with \section{Warning }{....} ~
-}
+% ~Make other sections like Warning with \section{Warning }{....} ~}
 \seealso{ \code{\link{prop.test}}, \code{\link{binom.test}} }
 \examples{
 ### p values and confidence intervals are defined the same way

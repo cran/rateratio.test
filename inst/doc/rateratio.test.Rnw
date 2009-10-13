@@ -120,7 +120,7 @@ inferences with the confidence intervals described above (see Section~\ref{sec-c
 \label{sec-caution}
 
 
-In the R function \texttt{binom.test} (as least up until Version 2.5.0) the two-sided p-value is calculated by defining more extreme responses 
+In the R function \texttt{binom.test} (as least up until \Sexpr{R.Version()$version.string}) the two-sided p-value is calculated by defining more extreme responses 
 as those values with binomial density functions less than or equal to the observed density. This is a valid 
 and reasonable way of defining two-sided p-values but it {\em does not match} with the two-sided confidence intervals. 
 Returning to our example from Section~\ref{sec-example} but using \texttt{binom.test} we can match the confidence intervals by using 
