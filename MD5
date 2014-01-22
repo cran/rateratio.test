@@ -1,7 +1,10 @@
-038ff90b9beb3cc79ab30cd0c49a09d3 *Changelog
-f2256725540a24701c533b4643eb1352 *DESCRIPTION
-eb80d4f36595e8c461d8f8685c030140 *NAMESPACE
-e55e28644c73a38c2579407c0df73ddc *R/rateratio.test.R
+42fd6017cba2a7a7c7048f76824b8ed8 *Changelog
+efb5cb680aadd477157793cffbe2a532 *DESCRIPTION
+86dcc52f21d3c947fb45319a668f4d47 *NAMESPACE
+7fdfe43ac89a9407e47f184e79f74e4a *R/rateratio.test.R
+86021e798bd5d0a7248debda4d2f2a81 *build/vignette.rds
+e4e66bdd4960ad5610bf1315dc5011ae *inst/doc/rateratio.test.R
 3385a32d3691fc712be11920bfdf4e62 *inst/doc/rateratio.test.Rnw
-b6539a60537a061bb96dc03e818543f9 *inst/doc/rateratio.test.pdf
-9360fd3fcffe4597e05d2a9b602db02e *man/rateratio.Rd
+4c0f7e010fb645ba147ad927ceeb5eb0 *inst/doc/rateratio.test.pdf
+e2f1f5e90e67e333e319bb13c42aeea3 *man/rateratio.Rd
+3385a32d3691fc712be11920bfdf4e62 *vignettes/rateratio.test.Rnw

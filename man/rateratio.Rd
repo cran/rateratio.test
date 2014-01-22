@@ -7,7 +7,9 @@ Performs the uniformy most powerful unbiased test on the ratio of rates of two P
 with given time (e.g., perons-years) at risk for each count.
 }
 \usage{
-rateratio.test(x, n, RR = 1, alternative = c("two.sided", "less", "greater"), conf.level = 0.95)
+rateratio.test(x, n, RR = 1, 
+    alternative = c("two.sided", "less", "greater"), 
+    conf.level = 0.95)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
@@ -26,6 +28,9 @@ over the second rate (estimated by x[2]/n[2]) is either equal to, less, or great
 \code{RR}.  Exact confidence intervals  
 come directly from \code{binom.test}. The two-sided p-value is defined as either 1 or twice the minimum of 
 the one-sided p-values. See Lehmann (1986, p. 152) or \code{vignette("rateratio.test")}.
+
+For full discussion of the p-value and confidence interval consistency of inferences, see Fay (2010) and exactci package.
+
 }
 \value{
  An object of class `htest' containing the following components:
@@ -37,9 +42,12 @@ the one-sided p-values. See Lehmann (1986, p. 152) or \code{vignette("rateratio.
 \item{method}{description of method}
 \item{data.name}{description of data}
 }
-\references{Lehmann, E.L. (1986). Testing Statistical Hypotheses (second edition). Wadsworth and Brooks/Cole, Pacific Grove, California. }
+\references{
+Fay, M. P. (2010). Two-sided exact tests and matching confidence intervals for discrete data. R Journal, 2(1), 53-58.
+
+Lehmann, E.L. (1986). Testing Statistical Hypotheses (second edition). Wadsworth and Brooks/Cole, Pacific Grove, California. }
 \author{Michael Fay}
-\note{ Much of the error checking code was taken from prop.test.} 
+\note{ Much of the error checking code was taken from prop.test.    } 
 % ~Make other sections like Warning with \section{Warning }{....} ~}
 \seealso{ \code{\link{prop.test}}, \code{\link{binom.test}} }
 \examples{

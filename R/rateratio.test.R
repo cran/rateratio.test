@@ -40,7 +40,7 @@
     names(ESTIMATE) <- c("Rate Ratio","Rate 1","Rate 2")
     pRR<- (N*RR)/(N*RR + M)
     pval.less<- pbinom(Y, X+Y, pRR)
-    pval.greater<- pbinom(Y -1, Y+X, pRR, lower = FALSE)
+    pval.greater<- pbinom(Y -1, Y+X, pRR, lower.tail = FALSE)
 
     PVAL <- switch(alternative, 
         less = pval.less, 
@@ -81,8 +81,8 @@
 }
 
 
-rateratio.test(c(2,9),c(17877,16650))
-rateratio.test(c(2,9),c(17877,16650),alternative="greater",conf.level=.975)
+#rateratio.test(c(2,9),c(17877,16650))
+#rateratio.test(c(2,9),c(17877,16650),alternative="greater",conf.level=.975)
 
 #prompt(rateratio.test,filename="H:\\main\\lpd\\klion\\noninferiority\\r\\rrt\\rateratio.Rd")
 
