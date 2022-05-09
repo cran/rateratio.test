@@ -49,7 +49,7 @@ Lehmann, E.L. (1986). Testing Statistical Hypotheses (second edition). Wadsworth
 \author{Michael Fay}
 \note{ Much of the error checking code was taken from prop.test.    } 
 % ~Make other sections like Warning with \section{Warning }{....} ~}
-\seealso{ \code{\link{prop.test}}, \code{\link{binom.test}} }
+\seealso{ See \code{\link[exactci]{poisson.exact}} in the \code{\link[exactci]{exactci}} package, which gives the same test. }
 \examples{
 ### p values and confidence intervals are defined the same way
 ### so there is consistency in inferences

@@ -1,3 +1,7 @@
+Changes in 1.1 
+- added importFrom statement to NAMESPACE file
+
+
 Changes from 1.0-1 to 1.0-2
 
 1. moved vignette to proper directory
